@@ -62,17 +62,85 @@ body{
     font-size: 0.8em;
     font-weight: 300;
 }
+.contact_Information{
+    padding-top: 24px;
+}
+.contact_Information .title{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+.contact_Information ul{
+    position: relative;
+}
+.contact_Information ul li{
+    position: relative;
+    list-style-type: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.contact_Information ul li .icon{
+    display: inline-block;
+    width: 32px;
+    font-size: 16px;
+    color: #03a9f4;
+}
+.contact_Information ul li span {
+    color: #fff;
+}
+.contact_Information a{
+    text-decoration: none;
+    color: #fff;
+}
 
 
 
 
-
+/* Right Side  */
 .container .right_Side{
     position: relative;
     background-color: #fff;
     padding: 40px;
 }
+.right_Side .title{
+    color:#003147 ;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 24px;
+}
+.right_Side .box {
+    background-color: hsla(180, 16%, 6%, 0.05);
+    padding: 12px;
+    border-radius: 8px;
+}
+.box p {
+    color: #333;
+}
+.box li {
+    list-style-type: none;
+    padding: 12px;
+}
 
+.about .box_title {
+    display:  flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+.about .box_title .title_left{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.about .box_title .title_left p {
+    color: #2a7da2;
+    font-size: 20px;
 
-  
-  
+}
+.about .box_title .title_right{
+    font-weight: 500;
+    background-color: rgb(87, 155, 177,0.3);
+    padding: 5px;
+    border-radius: 15px;
+}
